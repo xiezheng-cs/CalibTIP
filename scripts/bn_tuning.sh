@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 export datasets_dir=/media/drive/Datasets
 export model=${1:-"resnet"}
 export model_vis=${2:-"resnet50"}

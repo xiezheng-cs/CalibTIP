@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 sh scripts/adaquant.sh resnet resnet50 2 2 True
 sh scripts/adaquant.sh resnet resnet50 3 3 True
 sh scripts/adaquant.sh resnet resnet50 4 4 True
