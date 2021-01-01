@@ -15,6 +15,7 @@ export perC_suffix=''
 if [ "$perC" = True ] ; then
 export perC_suffix='_perC'
 fi
+
 # download and absorb_bn resnet50 and
 python main.py --model $model --save $workdir -b 128  -lfv $model_vis --model-config "{'batch_norm': False}"
 
